@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+#logo{
+    display: flexbox;
+}
+body{
+    background-image: url("./imagens/capadestino.jpg");
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  header {
+      width: 100%;
+      background-color: rgba(6, 93, 134, 0.411);
+      color: #fff;
+      padding:1rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+  }
+  header a {
+      text-decoration: none;
+      color: rgb(219, 219, 219);
+      margin: 0 .4rem 0 0;
+
+  }
+  header a:hover {
+    color: rgb(192, 17, 17);
+  }
+  .main-content {
+      max-width: 1200px;
+      margin-left: 50px;
+      margin: 25px auto;
+      display: grid;
+      grid-template-columns: repeat(3, 2fr);
+      justify-items:last baseline;
+  }
+  .cards{
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    justify-items:last baseline;
+    grid-gap: 200px;
+  }
+  
+  footer{
+      margin-left: 200px;
+      margin-right: 50px;
+      align-items: center;
+  }
